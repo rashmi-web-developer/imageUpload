@@ -15,7 +15,6 @@ class Demo extends CI_Controller
     {
         if ( $this->input->server('REQUEST_METHOD') == 'POST' )
         {
-            $this->load->library('upload', $config);
             $upload_path = $_POST['upload_path'];
             $passed_data['upload_path'] = $upload_path;
             $passed_data['maintain_ratio'] = TRUE;
@@ -48,7 +47,6 @@ class Demo extends CI_Controller
     function copy_image() {
         if ( $this->input->server('REQUEST_METHOD') == 'POST' )
         {
-            $this->load->library('upload', $config);
             $upload_path = $_POST['upload_path'];
             $file_name = $_POST['file_name'];
             $passed_data['upload_path'] = $upload_path;
