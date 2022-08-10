@@ -14,7 +14,7 @@ Code for image and video upload with thumb in php
 2. Now just call the function from common file.
 3. This function return the status of image upload.
 
-# Below steps follow for the copy image from the URL
+# Below steps follow for the download image from the URL
 
 1. Passed the external image url, new image url
 2. Now just call the function from common file.
