@@ -5,7 +5,6 @@ class Demo extends CI_Controller
     /**
      * Updates constructor.
      */
-    public $perPage = ROWS_LIMIT;
     public function __construct()
     {
         parent::__construct();
