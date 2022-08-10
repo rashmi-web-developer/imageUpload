@@ -1,5 +1,5 @@
 # imageUpload
-Code for image and video upload with thumb in php
+Code for image and video upload with thumb in php using codeigniter framwork
 
 # Below steps follow for the upload any type of image or video with the creating multiple size of thumbnail image
 
@@ -21,7 +21,8 @@ Code for image and video upload with thumb in php
 3. This function return the status of image upload. 
 
 # This are the some functions which helps you to upload the file, copy image from one to another and copy from external site.
-# For more refrence visit the demo file.
+For more refrence visit the demo file.
+This is the dynamic code for helping image upload task perform in project anywhere.
 
 
 
